@@ -120,3 +120,36 @@ GitHub: [https://github.com/manojasomarathna](https://github.com/manojasomarathn
 ## 📄 License
 
 This project is for **educational and internship preparation purposes**.
+
+# SmartBiz-ERP
+
+Simple ERP system backend built using Django and Django REST Framework.
+
+## Features
+- Product management (CRUD)
+- Customer management
+- Order management
+- REST APIs using Django REST Framework
+- Admin panel for data management
+
+## Tech Stack
+- Python
+- Django
+- Django REST Framework
+- SQLite
+
+## API Endpoints
+- GET /api/products/
+- POST /api/products/
+- GET /api/customers/
+- GET /api/orders/
+
+## Admin Panel
+- URL: /admin
+- Use superuser credentials to manage data
+
+## How to Run
+```bash
+cd backend
+py manage.py migrate
+py manage.py runserver
